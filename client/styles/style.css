@@ -1,0 +1,18 @@
+.movie {
+  border: 1px solid rgba(0,0,0,0.05);
+  padding: 1.2em;
+}
+
+.movie .glyphicon {
+  font-size: 4em;
+  color: white;
+  background-color: blue;
+  padding: 0.5em;
+  margin: 0.1em 0;
+}
+
+.movie .run-time {
+  font-size: 0.9em;
+  color: gray;
+  text-align: right;
+}
