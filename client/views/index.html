@@ -32,12 +32,12 @@
                 <textarea class="form-control col-md-12" placeholder="Description" ng-model="newMovie.description"></textarea>
             </div>
             <div class="form-group col-md-12">
-              <button type="button" class="btn btn-primary" name="button" ng-click="movies.addMovieToArray(newMovie)">Add Movie</button>
+              <button type="button" class="btn btn-primary form-control" name="button" ng-click="movies.addMovieToArray(newMovie)">Add Movie</button>
             </div>
 
           </form>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 movie-column">
           <div ng-controller="DisplayController" class="row">
               <div class="movie-container col-xs-12 col-sm-6 col-md-4" ng-repeat="movie in movies.collection">
                 <div class="movie">
