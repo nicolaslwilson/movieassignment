@@ -22,55 +22,55 @@ myApp.factory('TheaterService', [function () {
     title: 'Avatar',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     director: 'James Cameron',
-    length: '120min'
+    length: '120'
   },
   {
     title: 'Avatar',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     director: 'James Cameron',
-    length: '120min'
+    length: '120'
   },
   {
     title: 'Avatar',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     director: 'James Cameron',
-    length: '120min'
+    length: '120'
   },
   {
     title: 'Avatar',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     director: 'James Cameron',
-    length: '120min'
+    length: '120'
   },
   {
     title: 'Avatar',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     director: 'James Cameron',
-    length: '120min'
+    length: '120'
   },
   {
     title: 'Avatar',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     director: 'James Cameron',
-    length: '120min'
+    length: '120'
   },
   {
     title: 'Avatar',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     director: 'James Cameron',
-    length: '120min'
+    length: '120'
   },
   {
     title: 'Avatar',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     director: 'James Cameron',
-    length: '120min'
+    length: '120'
   },
   {
     title: 'Avatar',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     director: 'James Cameron',
-    length: '120min'
+    length: '120'
   }];
   exports.addMovieToArray = function (newMovie) {
     newMovie = angular.copy(newMovie);
